@@ -13,5 +13,6 @@ public class LoginController implements Controller {
 		// TODO Auto-generated method stub
 		return new ModelAndView("next");
 	}
-
+public String message(){
+	System.out.prinln("This is GIT HUB .......edited in git hub");
 }
